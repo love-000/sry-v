@@ -15369,12 +15369,12 @@ const Fw = rr("X", [["path", {
     d: "m6 6 12 12",
     key: "d8bk6v"
 }]])
-  , zw = "/assets/i-miss-you-i-m-sorry.mp3"
-  , Bw = "/assets/marry-me-vnsu-you'll-never-have-to-br-alone.mp3"
-  , Uw = "/assets/ghne-dina-te-russi-bethi.mp3"
-  , bw = "/assets/pic1-DDdxw6b7.gif"
-  , $w = "/assets/pic2-BrXUnpVB.jpg"
-  , Hw = "/assets/pic3-CExUpC0S.jpg"
+  , zw = "assets/i-miss-you-i-m-sorry.mp3"
+  , Bw = "assets/marry-me-vnsu-you'll-never-have-to-br-alone.mp3"
+  , Uw = "assets/ghne-dina-te-russi-bethi.mp3"
+  , bw = "assets/pic1-DDdxw6b7.gif"
+  , $w = "assets/pic2-BrXUnpVB.jpg"
+  , Hw = "assets/pic3-CExUpC0S.jpg"
   , Yt = ({children: e, animation: t="fade", delay: n=0, duration: r=.5, threshold: i=.1, once: o=!0}) => {
     const s = T.useRef(null)
       , l = Dw(s, {
@@ -15408,7 +15408,7 @@ const Fw = rr("X", [["path", {
         children: e
     })
 }
-  , Lm = "/assets/hellokitty-M_AUT0nT.gif"
+  , Lm = "assets/hellokitty-M_AUT0nT.gif"
   , Ww = ({onComplete: e, onClose: t}) => {
     const [n,r] = T.useState([])
       , [i,o] = T.useState([])
@@ -15748,8 +15748,8 @@ const Fw = rr("X", [["path", {
         })
     })
 }
-  , Kw = "/assets/intro-BWYhNUbz.gif"
-  , Gw = "/assets/aeroplane-DV-cHq5m.png"
+  , Kw = "assets/intro-BWYhNUbz.gif"
+  , Gw = "assets/aeroplane-DV-cHq5m.png"
   , ne = {
     greeting: {
         name: "Hieieieieiie",
@@ -17105,3 +17105,4 @@ function qw() {
 ih(document.getElementById("root")).render(y.jsx(T.StrictMode, {
     children: y.jsx(qw, {})
 }));
+
